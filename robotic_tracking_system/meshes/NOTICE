@@ -1,0 +1,5 @@
+The mesh files in meshes/panda/ are unmodified copies of the Franka Emika Panda
+meshes distributed with the ROS package `moveit_resources_panda_description`
+(https://github.com/ros-planning/moveit_resources, BSD licence), which in turn
+originate from the Franka Emika robot description. They are included so that
+the simulated robot can be loaded without a machine-specific path.

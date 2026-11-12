@@ -1,0 +1,2557 @@
+{
+  "twist_count": 242048,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": 30.25,
+  "twist_last_stamp": 3646.31,
+  "twist_last_nonzero_stamp": 3646.31,
+  "traj_count": 71986,
+  "traj_nan": 0,
+  "traj_first_stamp": 0.0,
+  "traj_last_recv_sim": 3646.4,
+  "js_count": 362264,
+  "samples": 36231,
+  "sim_t_start": 26.700000000000003,
+  "sim_t_end": 3649.7000000000003,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      665,
+      659,
+      304
+    ],
+    "step_std_xyz": [
+      0.04147,
+      0.04221,
+      0.00052
+    ],
+    "saturated_msgs": 40158,
+    "saturation_fraction": 0.1659,
+    "max_abs_xyz": [
+      0.999,
+      0.999,
+      0.02118
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      603,
+      300,
+      61
+    ],
+    "step_std_xyz": [
+      0.00038,
+      0.00034,
+      5e-05
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.01337,
+      0.01488,
+      0.00327
+    ]
+  },
+  "twist_angular_nonzero_msgs": 233058,
+  "ori_err_max_deg": 2.0199,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 31.020000000000003,
+      "shape": "square"
+    },
+    {
+      "sim_t": 55.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 79.02000000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 103.02000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 127.02000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 151.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 175.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 199.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 223.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 247.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 271.02000000000004,
+      "shape": "square"
+    },
+    {
+      "sim_t": 295.02000000000004,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 319.02000000000004,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 343.02000000000004,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 367.02000000000004,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 391.02000000000004,
+      "shape": "square"
+    },
+    {
+      "sim_t": 415.02000000000004,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 439.02000000000004,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 463.02000000000004,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 487.02000000000004,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 511.02000000000004,
+      "shape": "square"
+    },
+    {
+      "sim_t": 535.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 559.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 583.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 607.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 631.0200000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 655.0200000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 679.0200000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 703.0200000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 727.0200000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 751.0200000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 775.0200000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 799.0200000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 823.0200000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 847.0200000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 871.0200000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 895.0200000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 919.0200000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 943.0200000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 967.0200000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 991.0200000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1015.0200000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1039.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1063.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1087.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1111.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1135.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1159.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1183.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1207.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1231.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1255.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1279.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1303.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1327.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1351.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1375.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1399.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1423.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1447.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1471.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1495.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1519.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1543.0200000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1567.0200000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1591.0200000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1615.0200000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1639.0200000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1663.0200000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1687.0200000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1711.0200000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1735.0200000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1759.0200000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1783.0200000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1807.0200000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1831.0200000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1855.0200000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1879.0200000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 1903.0200000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 1927.0200000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 1951.0200000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 1975.0200000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 1999.0200000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2023.0200000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2047.0200000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2071.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2095.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2119.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2143.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2167.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2191.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2215.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2239.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2263.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2287.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2311.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2335.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2359.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2383.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2407.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2431.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2455.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2479.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2503.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2527.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2551.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2575.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2599.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2623.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2647.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2671.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2695.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2719.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2743.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2767.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2791.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2815.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2839.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2863.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 2887.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 2911.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 2935.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 2959.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 2983.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3007.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3031.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 3055.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 3079.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 3103.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3127.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3151.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 3175.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 3199.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 3223.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3247.02,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3271.02,
+      "shape": "square"
+    },
+    {
+      "sim_t": 3295.02,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 3319.02,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 3343.02,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3367.0200000000004,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3391.0200000000004,
+      "shape": "square"
+    },
+    {
+      "sim_t": 3415.0200000000004,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 3439.0200000000004,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 3463.0200000000004,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3487.0200000000004,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3511.0200000000004,
+      "shape": "square"
+    },
+    {
+      "sim_t": 3535.0200000000004,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 3559.0200000000004,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 3583.0200000000004,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 3607.0200000000004,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 3631.0200000000004,
+      "shape": "square"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 26.55,
+      "status": 0
+    },
+    {
+      "sim_t": 165.99,
+      "status": 6
+    },
+    {
+      "sim_t": 166.03,
+      "status": 0
+    },
+    {
+      "sim_t": 405.95000000000005,
+      "status": 6
+    },
+    {
+      "sim_t": 405.99,
+      "status": 0
+    },
+    {
+      "sim_t": 1605.95,
+      "status": 6
+    },
+    {
+      "sim_t": 1605.99,
+      "status": 0
+    },
+    {
+      "sim_t": 1845.98,
+      "status": 6
+    },
+    {
+      "sim_t": 1846.0100000000002,
+      "status": 0
+    },
+    {
+      "sim_t": 2685.9500000000003,
+      "status": 6
+    },
+    {
+      "sim_t": 2686.02,
+      "status": 0
+    },
+    {
+      "sim_t": 2805.9900000000002,
+      "status": 6
+    },
+    {
+      "sim_t": 2806.02,
+      "status": 0
+    },
+    {
+      "sim_t": 3165.9900000000002,
+      "status": 6
+    },
+    {
+      "sim_t": 3166.09,
+      "status": 0
+    },
+    {
+      "sim_t": 3525.96,
+      "status": 6
+    },
+    {
+      "sim_t": 3526.03,
+      "status": 0
+    },
+    {
+      "sim_t": 3646.0,
+      "status": 6
+    },
+    {
+      "sim_t": 3646.0600000000004,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [
+    {
+      "sim_t": 30.05,
+      "state": "WAIT_READY"
+    },
+    {
+      "sim_t": 30.35,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 47.050000000000004,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 53.650000000000006,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 55.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 71.05000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 77.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 79.02000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 95.05000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 101.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 103.02000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 119.05000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 125.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 127.02000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 143.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 149.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 151.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 167.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 173.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 175.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 191.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 197.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 199.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 215.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 221.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 223.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 239.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 245.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 247.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 263.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 269.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 271.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 287.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 293.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 295.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 311.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 317.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 319.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 335.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 341.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 343.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 359.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 365.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 367.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 383.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 389.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 391.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 407.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 413.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 415.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 431.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 437.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 439.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 455.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 461.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 463.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 479.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 485.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 487.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 503.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 509.65000000000003,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 511.02000000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 527.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 533.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 535.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 551.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 557.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 559.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 575.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 581.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 583.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 599.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 605.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 607.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 623.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 629.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 631.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 647.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 653.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 655.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 671.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 677.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 679.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 695.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 701.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 703.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 719.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 725.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 727.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 743.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 749.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 751.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 767.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 773.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 775.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 791.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 797.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 799.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 815.0600000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 821.7,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 823.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 839.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 845.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 847.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 863.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 869.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 871.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 887.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 893.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 895.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 911.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 917.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 919.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 935.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 941.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 943.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 959.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 965.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 967.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 983.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 989.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 991.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1007.0500000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1013.6500000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1015.0200000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1031.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1037.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1039.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1055.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1061.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1063.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1079.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1085.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1087.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1103.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1109.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1111.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1127.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1133.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1135.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1151.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1157.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1159.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1175.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1181.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1183.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1199.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1205.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1207.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1223.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1229.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1231.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1247.0,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1253.6000000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1255.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1271.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1277.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1279.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1295.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1301.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1303.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1319.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1325.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1327.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1343.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1349.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1351.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1367.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1373.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1375.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1391.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1397.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1399.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1415.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1421.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1423.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1439.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1445.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1447.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1463.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1469.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1471.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1487.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1493.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1495.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1511.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1517.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1519.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1535.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1541.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1543.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1559.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1565.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1567.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1583.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1589.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1591.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1607.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1613.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1615.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1631.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1637.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1639.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1655.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1661.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1663.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1679.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1685.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1687.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1703.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1709.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1711.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1727.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1733.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1735.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1751.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1757.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1759.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1775.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1781.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1783.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1799.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1805.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1807.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1823.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1829.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1831.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1847.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1853.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1855.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1871.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1877.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1879.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1895.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1901.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1903.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1919.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1925.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1927.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1943.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1949.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1951.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1967.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1973.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1975.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 1991.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 1997.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 1999.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2015.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2021.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2023.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2039.0500000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2045.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2047.0200000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2063.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2069.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2071.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2087.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2093.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2095.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2111.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2117.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2119.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2135.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2141.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2143.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2159.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2165.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2167.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2183.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2189.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2191.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2207.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2213.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2215.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2231.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2237.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2239.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2255.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2261.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2263.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2279.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2285.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2287.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2303.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2309.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2311.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2327.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2333.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2335.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2351.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2357.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2359.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2375.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2381.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2383.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2399.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2405.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2407.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2423.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2429.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2431.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2447.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2453.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2455.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2471.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2477.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2479.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2495.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2501.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2503.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2519.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2525.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2527.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2543.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2549.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2551.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2567.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2573.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2575.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2591.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2597.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2599.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2615.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2621.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2623.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2639.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2645.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2647.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2663.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2669.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2671.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2687.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2693.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2695.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2711.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2717.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2719.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2735.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2741.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2743.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2759.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2765.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2767.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2783.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2789.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2791.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2807.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2813.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2815.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2831.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2837.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2839.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2855.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2861.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2863.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2879.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2885.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2887.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2903.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2909.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2911.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2927.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2933.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2935.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2951.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2957.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2959.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2975.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 2981.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 2983.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 2999.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3005.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3007.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3023.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3029.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3031.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3047.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3053.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3055.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3071.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3077.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3079.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3095.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3101.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3103.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3119.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3125.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3127.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3143.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3149.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3151.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3167.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3173.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3175.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3191.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3197.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3199.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3215.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3221.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3223.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3239.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3245.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3247.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3263.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3269.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3271.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3287.0,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3293.6000000000004,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3295.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3311.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3317.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3319.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3335.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3341.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3343.02,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3359.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3365.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3367.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3383.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3389.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3391.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3407.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3413.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3415.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3431.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3437.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3439.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3455.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3461.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3463.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3479.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3485.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3487.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3503.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3509.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3511.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3527.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3533.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3535.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3551.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3557.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3559.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3575.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3581.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3583.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3599.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3605.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3607.0200000000004,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 3623.05,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 3629.65,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 3631.0200000000004,
+      "state": "TRACKING"
+    }
+  ],
+  "detection_msgs": 12203
+}

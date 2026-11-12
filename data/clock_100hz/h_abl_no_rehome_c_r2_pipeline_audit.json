@@ -1,0 +1,156 @@
+{
+  "twist_count": 39768,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": 30.53,
+  "twist_last_stamp": 428.19,
+  "twist_last_nonzero_stamp": 95.59,
+  "traj_count": 11736,
+  "traj_nan": 0,
+  "traj_first_stamp": 0.0,
+  "traj_last_recv_sim": 428.26000000000005,
+  "js_count": 40438,
+  "samples": 4044,
+  "sim_t_start": 27.220000000000002,
+  "sim_t_end": 431.5,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      10,
+      9,
+      9
+    ],
+    "step_std_xyz": [
+      0.01509,
+      0.01371,
+      0.00107
+    ],
+    "saturated_msgs": 2126,
+    "saturation_fraction": 0.0535,
+    "max_abs_xyz": [
+      0.999,
+      0.999,
+      0.20902
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      8,
+      2,
+      4
+    ],
+    "step_std_xyz": [
+      0.00077,
+      0.00045,
+      5e-05
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.15245,
+      0.08501,
+      0.00962
+    ]
+  },
+  "twist_angular_nonzero_msgs": 4494,
+  "ori_err_max_deg": 4.2976,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 31.630000000000003,
+      "shape": "square"
+    },
+    {
+      "sim_t": 55.63,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 79.63000000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 103.63000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 127.63000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 151.63,
+      "shape": "square"
+    },
+    {
+      "sim_t": 175.63000000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 199.63000000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 223.63000000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 247.63000000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 271.63,
+      "shape": "square"
+    },
+    {
+      "sim_t": 295.63,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 319.63,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 343.63,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 367.63,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 391.63000000000005,
+      "shape": "square"
+    },
+    {
+      "sim_t": 415.63000000000005,
+      "shape": "circle"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 28.12,
+      "status": 0
+    },
+    {
+      "sim_t": 83.39,
+      "status": 1
+    },
+    {
+      "sim_t": 83.84,
+      "status": 2
+    },
+    {
+      "sim_t": 83.97,
+      "status": 1
+    },
+    {
+      "sim_t": 95.66000000000001,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [],
+  "detection_msgs": 257
+}

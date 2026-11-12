@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="conveyor_world">
+
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so"/>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Static conveyor base.
+         Poses are in the world frame, which coincides with panda_link0
+         because the robot is spawned at the origin.
+         Top surface at z = 0.345 + 0.025 = 0.37, flush with the bottom of
+         the moving part (part center z 0.41, height 0.08).
+         Belt spans y in [-0.45, 0.85]: it reaches 0.20 m upstream of the
+         part spawn point (y = -0.25) and backs the whole perception ROI
+         (y_min -0.40), so parts are fully visible against belt-colored
+         background from the moment they spawn. -->
+    <model name="static_conveyor">
+      <static>true</static>
+
+      <!-- Position: x y z roll pitch yaw -->
+      <pose>0.50 0.20 0.345 0 0 1.5708</pose>
+
+      <link name="conveyor_link">
+        <visual name="conveyor_visual">
+          <geometry>
+            <box>
+              <size>1.30 0.35 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+
+        <collision name="conveyor_collision">
+          <geometry>
+            <box>
+              <size>1.30 0.35 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Overhead camera above the tracking zone (part path y in
+         [-0.25, +0.25] at x = 0.5, part top z = 0.45 -> 0.75 m range).
+         Looking straight down: pitch +90 deg points the camera +X view
+         axis at -Z; yaw pi makes the image x-axis run along world +Y so
+         the belt travel appears horizontal in the image. 60 deg HFOV
+         covers ~0.87 m along Y at that range. The matching optical-frame
+         TF (panda_link0 -> camera_link_optical) is published by
+         panda_gazebo_moveit.launch.py and must be kept consistent with
+         this pose. -->
+    <model name="overhead_camera">
+      <static>true</static>
+      <pose>0.50 0.0 1.20 0 1.5708 3.1416</pose>
+
+      <link name="camera_link">
+        <visual name="camera_visual">
+          <geometry>
+            <box>
+              <size>0.03 0.03 0.03</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+          </material>
+        </visual>
+
+        <sensor name="conveyor_camera" type="camera">
+          <update_rate>30</update_rate>
+          <always_on>true</always_on>
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.02</near>
+              <far>10</far>
+            </clip>
+          </camera>
+          <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+            <ros>
+              <namespace>/camera</namespace>
+            </ros>
+            <frame_name>camera_link_optical</frame_name>
+          </plugin>
+        </sensor>
+      </link>
+    </model>
+
+    <!-- Single box part for stand-alone tests; it can be placed and
+         driven kinematically through /set_entity_state. The multi-shape
+         stream (gazebo_shape_stream_node) does not use it and spawns its
+         own models.
+         Parked outside the camera view: at the shape-spawn point
+         (0.50, -0.25) the perception ROI would see it as a permanent
+         false-positive blob merging with every entering part. -->
+    <model name="moving_part">
+      <static>false</static>
+      <pose>1.50 -1.00 0.41 0 0 0</pose>
+
+      <link name="part_link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <iyy>0.001</iyy>
+            <izz>0.001</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+
+        <visual name="part_visual">
+          <geometry>
+            <box>
+              <size>0.20 0.12 0.08</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.4 1.0 1</ambient>
+            <diffuse>0.1 0.4 1.0 1</diffuse>
+          </material>
+        </visual>
+
+        <collision name="part_collision">
+          <geometry>
+            <box>
+              <size>0.20 0.12 0.08</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,67 @@
+[INFO] [1794439824.522270671] [perception_target_estimator]: Perception target estimator started (min_detections 15, gate 0.06 m, velocity_prior_blend 0.0, fit_frame part)
+[INFO] [1794439826.330508277] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (-0.0000, 0.0292) m/s from 15 detections
+[INFO] [1794439828.108133756] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[WARN] [1794439843.523830640] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439849.925120075] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439850.406707005] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.231), velocity (0.0000, 0.0286) m/s from 15 detections
+[INFO] [1794439852.177920931] [perception_target_estimator]: Shape resolved: pending -> 'circle'
+[WARN] [1794439867.648412433] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439873.997257829] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439874.456056501] [perception_target_estimator]: Confident: part 'pending' at (0.490, -0.228), velocity (-0.0007, 0.0286) m/s from 15 detections
+[INFO] [1794439876.153058160] [perception_target_estimator]: Shape resolved: pending -> 'triangle'
+[WARN] [1794439891.713264219] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439898.043518244] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439898.531848496] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (0.0000, 0.0281) m/s from 15 detections
+[INFO] [1794439900.304826961] [perception_target_estimator]: Shape resolved: pending -> 'pentagon'
+[WARN] [1794439915.742381199] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439922.105617504] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439922.569850701] [perception_target_estimator]: Confident: part 'pending' at (0.493, -0.214), velocity (-0.0003, 0.0285) m/s from 15 detections
+[INFO] [1794439923.795967247] [perception_target_estimator]: Shape resolved: pending -> 'irregular'
+[WARN] [1794439939.258489187] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439946.162388495] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439946.623463204] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (-0.0000, 0.0291) m/s from 15 detections
+[INFO] [1794439948.414210411] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[WARN] [1794439963.816633229] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439970.227678953] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439970.673996128] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.231), velocity (0.0000, 0.0286) m/s from 15 detections
+[INFO] [1794439972.450138227] [perception_target_estimator]: Shape resolved: pending -> 'circle'
+[WARN] [1794439987.936610103] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794439994.286264086] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794439994.744111019] [perception_target_estimator]: Confident: part 'pending' at (0.490, -0.228), velocity (-0.0006, 0.0287) m/s from 15 detections
+[INFO] [1794439996.437882951] [perception_target_estimator]: Shape resolved: pending -> 'triangle'
+[WARN] [1794440012.008586131] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440018.351511833] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440018.817309339] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (0.0000, 0.0281) m/s from 15 detections
+[INFO] [1794440020.577778699] [perception_target_estimator]: Shape resolved: pending -> 'pentagon'
+[WARN] [1794440036.038430609] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440042.404946646] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440042.862970963] [perception_target_estimator]: Confident: part 'pending' at (0.493, -0.214), velocity (-0.0003, 0.0286) m/s from 15 detections
+[INFO] [1794440044.107056638] [perception_target_estimator]: Shape resolved: pending -> 'irregular'
+[WARN] [1794440059.549588686] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440066.465944947] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440066.930629406] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (-0.0000, 0.0292) m/s from 15 detections
+[INFO] [1794440068.689688892] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[WARN] [1794440084.107222289] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440090.505916655] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440090.983591317] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (-0.0000, 0.0286) m/s from 15 detections
+[INFO] [1794440092.757253290] [perception_target_estimator]: Shape resolved: pending -> 'circle'
+[WARN] [1794440108.224438218] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440114.566431100] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440115.023859471] [perception_target_estimator]: Confident: part 'pending' at (0.490, -0.228), velocity (-0.0006, 0.0286) m/s from 15 detections
+[INFO] [1794440116.727023840] [perception_target_estimator]: Shape resolved: pending -> 'triangle'
+[WARN] [1794440132.277442360] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440138.612825098] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440139.094000809] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (0.0000, 0.0281) m/s from 15 detections
+[INFO] [1794440140.867143592] [perception_target_estimator]: Shape resolved: pending -> 'pentagon'
+[WARN] [1794440156.336101012] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440162.662961914] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440163.144962076] [perception_target_estimator]: Confident: part 'pending' at (0.493, -0.214), velocity (-0.0003, 0.0286) m/s from 15 detections
+[INFO] [1794440164.375634008] [perception_target_estimator]: Shape resolved: pending -> 'irregular'
+[WARN] [1794440179.825875893] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440186.726286793] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440187.202662390] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.230), velocity (-0.0000, 0.0293) m/s from 15 detections
+[INFO] [1794440188.964264789] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[WARN] [1794440204.376913128] [perception_target_estimator]: Coast limit reached (15 s without an accepted detection) - part state suspended until fresh detections
+[INFO] [1794440210.779082757] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794440211.235828953] [perception_target_estimator]: Confident: part 'pending' at (0.499, -0.231), velocity (0.0000, 0.0286) m/s from 15 detections
+[INFO] [1794440213.012216909] [perception_target_estimator]: Shape resolved: pending -> 'circle'

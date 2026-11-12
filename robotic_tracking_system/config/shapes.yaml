@@ -1,0 +1,42 @@
+# Shape catalog for conveyor parts.
+#
+# Shared by:
+#   - moving_shape_perimeter_tracker (perimeter path of each shape)
+#   - gazebo_shape_stream_node (Gazebo models on the conveyor)
+#   - part_perception_node (reference shapes for classification)
+#   - perception_target_estimator (catalog centroid offsets)
+#
+# Conventions:
+#   - vertices are [x, y] in the part frame (metres), ordered COUNTER-
+#     CLOCKWISE, centered on the part origin; the perimeter path is the
+#     closed polyline through them (corners are exact path points).
+#   - circle shapes give a radius; the tracker discretizes the circumference
+#     (circle_discretization parameter) and Gazebo shows a cylinder.
+#   - height is the extrusion height of every part (z size).
+#   - Footprints must fit the conveyor belt (0.35 m wide): keep within
+#     roughly a 0.20 m diameter.
+
+height: 0.08
+
+shapes:
+  square:
+    type: polygon
+    vertices: [[0.08, 0.08], [-0.08, 0.08], [-0.08, -0.08], [0.08, -0.08]]
+
+  triangle:
+    type: polygon
+    vertices: [[0.10, 0.0], [-0.07, 0.08], [-0.07, -0.08]]
+
+  pentagon:
+    type: polygon
+    # 5 points on a circle of radius 0.09 (angles 18, 90, 162, 234, 306 deg)
+    vertices: [[0.0856, 0.0278], [0.0, 0.09], [-0.0856, 0.0278], [-0.0529, -0.0728], [0.0529, -0.0728]]
+
+  irregular:
+    type: polygon
+    # 6 corners, slightly concave at the last vertex
+    vertices: [[0.10, 0.02], [0.03, 0.08], [-0.05, 0.09], [-0.09, 0.0], [-0.04, -0.08], [0.02, -0.03]]
+
+  circle:
+    type: circle
+    radius: 0.08

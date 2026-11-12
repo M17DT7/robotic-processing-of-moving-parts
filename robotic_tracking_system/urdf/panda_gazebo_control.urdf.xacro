@@ -1,0 +1,393 @@
+<?xml version="1.0" ?>
+<!-- =================================================================================== -->
+<!-- |    Panda description derived from the xacro-generated panda.urdf of        | -->
+<!-- |    moveit_resources (panda_description), extended for Gazebo with inertias,   | -->
+<!-- |    fixed world joint, Gazebo materials and the ros2_control interface.        | -->
+<!-- =================================================================================== -->
+<robot name="panda" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="simple_inertial" params="mass:=0.1">
+        <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="${mass}"/>
+        <inertia
+            ixx="0.001" ixy="0.0" ixz="0.0"
+            iyy="0.001" iyz="0.0"
+            izz="0.001"/>
+        </inertial>
+    </xacro:macro>
+
+    <!-- Fixed world link to anchor the robot base in Gazebo -->
+    <link name="world"/>
+
+    <joint name="world_to_panda_link0" type="fixed">
+        <parent link="world"/>
+        <child link="panda_link0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    
+    <link name="panda_link0">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link0.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link0.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="panda_link1">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link1.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link1.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint1" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+        <origin rpy="0 0 0" xyz="0 0 0.333" />
+        <parent link="panda_link0" />
+        <child link="panda_link1" />
+        <axis xyz="0 0 1" />
+        <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+    </joint>
+    <link name="panda_link2">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link2.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link2.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint2" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-1.7628" soft_upper_limit="1.7628" />
+        <origin rpy="-1.57079632679 0 0" xyz="0 0 0" />
+        <parent link="panda_link1" />
+        <child link="panda_link2" />
+        <axis xyz="0 0 1" />
+        <limit effort="87" lower="-1.8326" upper="1.8326" velocity="2.3925" />
+    </joint>
+    <link name="panda_link3">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link3.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link3.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint3" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+        <origin rpy="1.57079632679 0 0" xyz="0 -0.316 0" />
+        <parent link="panda_link2" />
+        <child link="panda_link3" />
+        <axis xyz="0 0 1" />
+        <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+    </joint>
+    <link name="panda_link4">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link4.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link4.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint4" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-3.0718" soft_upper_limit="0.0175" />
+        <origin rpy="1.57079632679 0 0" xyz="0.0825 0 0" />
+        <parent link="panda_link3" />
+        <child link="panda_link4" />
+        <axis xyz="0 0 1" />
+        <limit effort="87" lower="-3.1416" upper="0.0873" velocity="2.3925" />
+    </joint>
+    <link name="panda_link5">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link5.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link5.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint5" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+        <origin rpy="-1.57079632679 0 0" xyz="-0.0825 0.384 0" />
+        <parent link="panda_link4" />
+        <child link="panda_link5" />
+        <axis xyz="0 0 1" />
+        <limit effort="12" lower="-2.9671" upper="2.9671" velocity="2.8710" />
+    </joint>
+    <link name="panda_link6">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link6.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link6.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint6" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-0.0175" soft_upper_limit="3.7525" />
+        <origin rpy="1.57079632679 0 0" xyz="0 0 0" />
+        <parent link="panda_link5" />
+        <child link="panda_link6" />
+        <axis xyz="0 0 1" />
+        <limit effort="12" lower="-0.0873" upper="3.8223" velocity="2.8710" />
+    </joint>
+    <link name="panda_link7">
+        <xacro:simple_inertial/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/link7.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/link7.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_joint7" type="revolute">
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+        <origin rpy="1.57079632679 0 0" xyz="0.088 0 0" />
+        <parent link="panda_link6" />
+        <child link="panda_link7" />
+        <axis xyz="0 0 1" />
+        <limit effort="12" lower="-2.9671" upper="2.9671" velocity="2.8710" />
+    </joint>
+    <link name="panda_link8">
+        <xacro:simple_inertial mass="0.01"/>
+    </link>
+
+    <joint name="panda_joint8" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0.107" />
+        <parent link="panda_link7" />
+        <child link="panda_link8" />
+        <axis xyz="0 0 0" />
+    </joint>
+    <joint name="panda_hand_joint" type="fixed">
+        <parent link="panda_link8" />
+        <child link="panda_hand" />
+        <origin rpy="0 0 -0.785398163397" xyz="0 0 0" />
+    </joint>
+    <link name="panda_hand">
+        <xacro:simple_inertial mass="0.1"/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/hand.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/hand.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="panda_leftfinger">
+        <xacro:simple_inertial mass="0.01"/>
+        <visual>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/finger.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/finger.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="panda_rightfinger">
+        <xacro:simple_inertial mass="0.01"/>
+        <visual>
+            <origin rpy="0 0 3.14159265359" xyz="0 0 0" />
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/visual/finger.dae" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin rpy="0 0 3.14159265359" xyz="0 0 0" />
+            <geometry>
+                <mesh filename="file://$(find robotic_tracking_system)/meshes/panda/collision/finger.stl" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="panda_finger_joint1" type="prismatic">
+        <parent link="panda_hand" />
+        <child link="panda_leftfinger" />
+        <origin rpy="0 0 0" xyz="0 0 0.0584" />
+        <axis xyz="0 1 0" />
+        <limit effort="20" lower="0.0" upper="0.04" velocity="0.2" />
+    </joint>
+    <joint name="panda_finger_joint2" type="prismatic">
+        <parent link="panda_hand" />
+        <child link="panda_rightfinger" />
+        <origin rpy="0 0 0" xyz="0 0 0.0584" />
+        <axis xyz="0 -1 0" />
+        <limit effort="20" lower="0.0" upper="0.04" velocity="0.2" />
+        <mimic joint="panda_finger_joint1" />
+    </joint>
+
+
+    <!-- Force Gazebo materials so DAE ambient values do not make the robot invisible -->
+    <gazebo reference="panda_link0">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link1">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link2">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link3">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link4">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link5">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link6">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_link7">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="panda_hand">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="panda_leftfinger">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+
+    <gazebo reference="panda_rightfinger">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+
+  <!-- Gazebo ros2_control plugin -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find robotic_tracking_system)/config/panda_gazebo_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- Gazebo hardware interface -->
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <!-- Initial positions = Panda "ready" pose (SRDF group state).
+         The all-zero pose is outside the real joint limits (panda_joint4
+         valid range -3.0718 to -0.0698) and is a singular configuration,
+         so starting MoveIt Servo from it produces NaN joint commands. -->
+    <joint name="panda_joint1">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint2">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-0.785</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint3">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint4">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-2.356</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint5">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint6">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">1.571</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_joint7">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.785</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_finger_joint1">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="panda_finger_joint2">
+      <param name="mimic">panda_finger_joint1</param>
+      <param name="multiplier">1</param>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+</robot>

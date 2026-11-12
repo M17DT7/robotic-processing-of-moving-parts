@@ -1,0 +1,26 @@
+{
+ "label": "h_gt_v060_r1",
+ "config": {
+  "mode": "gt",
+  "duration": 150,
+  "v": 0.06,
+  "spawn_period": 8.0,
+  "stream": {},
+  "tracker": {},
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": [],
+  "extra": [],
+  "clock_rate": 100.0
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 188.8,
+ "sim_recorded_s": 154.5,
+ "twist_nan": 0,
+ "servo_status": [
+  0,
+  1
+ ]
+}

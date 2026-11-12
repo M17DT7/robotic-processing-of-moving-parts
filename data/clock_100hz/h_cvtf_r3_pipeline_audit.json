@@ -1,0 +1,124 @@
+{
+  "twist_count": 0,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": null,
+  "twist_last_stamp": null,
+  "twist_last_nonzero_stamp": null,
+  "traj_count": 0,
+  "traj_nan": 0,
+  "traj_first_stamp": null,
+  "traj_last_recv_sim": null,
+  "js_count": 30462,
+  "samples": 3047,
+  "sim_t_start": 26.400000000000002,
+  "sim_t_end": 331.0,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular_nonzero_msgs": 0,
+  "ori_err_max_deg": 0.0,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 31.430000000000003,
+      "shape": "square"
+    },
+    {
+      "sim_t": 55.43000000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 79.43,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 103.43,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 127.43,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 151.43,
+      "shape": "square"
+    },
+    {
+      "sim_t": 175.43,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 199.43,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 223.43,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 247.43,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 271.43,
+      "shape": "square"
+    },
+    {
+      "sim_t": 295.43,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 319.43,
+      "shape": "triangle"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 26.380000000000003,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [],
+  "detection_msgs": 5837
+}

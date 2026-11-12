@@ -1,0 +1,69 @@
+{
+ "label": "h_p0t_vchange_c",
+ "config": {
+  "mode": "percep",
+  "duration": 420,
+  "v": 0.03,
+  "spawn_period": 24.0,
+  "stream": {},
+  "perception": {
+   "parallax_correction": true,
+   "principal_point_shift_px": -1.0
+  },
+  "estimator": {
+   "velocity_prior_blend": 0.0,
+   "coast_prior_blend": 0.0,
+   "velocity_prior": [
+    0.0,
+    0.03
+   ],
+   "coast_time_limit": 22.5
+  },
+  "tracker": {},
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": [
+   [
+    120,
+    "gazebo_shape_stream_node",
+    "target_vy",
+    0.045
+   ],
+   [
+    120,
+    "gazebo_shape_stream_node",
+    "spawn_period",
+    19.0
+   ],
+   [
+    250,
+    "gazebo_shape_stream_node",
+    "target_vy",
+    0.02
+   ],
+   [
+    250,
+    "gazebo_shape_stream_node",
+    "spawn_period",
+    31.5
+   ]
+  ],
+  "extra": [],
+  "clock_rate": 100.0
+ },
+ "ok": true,
+ "notes": [
+  "t=120s set gazebo_shape_stream_node.spawn_period=19.0: Set parameter successful",
+  "t=120s set gazebo_shape_stream_node.target_vy=0.045: Set parameter successful",
+  "t=251s set gazebo_shape_stream_node.spawn_period=31.5: Set parameter successful",
+  "t=251s set gazebo_shape_stream_node.target_vy=0.02: Set parameter successful"
+ ],
+ "leftover_killed": 1,
+ "wall_s": 459.0,
+ "sim_recorded_s": 424.7,
+ "twist_nan": 0,
+ "servo_status": [
+  0,
+  6
+ ]
+}

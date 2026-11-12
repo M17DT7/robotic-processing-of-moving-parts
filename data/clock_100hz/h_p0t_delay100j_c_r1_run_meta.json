@@ -1,0 +1,42 @@
+{
+ "label": "h_p0t_delay100j_c_r1",
+ "config": {
+  "mode": "percep",
+  "duration": 300,
+  "v": 0.03,
+  "spawn_period": 24.0,
+  "stream": {},
+  "perception": {
+   "publish_delay": 0.1,
+   "publish_delay_jitter": 0.05,
+   "parallax_correction": true,
+   "principal_point_shift_px": -1.0
+  },
+  "estimator": {
+   "velocity_prior_blend": 0.0,
+   "coast_prior_blend": 0.0,
+   "velocity_prior": [
+    0.0,
+    0.03
+   ],
+   "coast_time_limit": 15.0
+  },
+  "tracker": {},
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": [],
+  "extra": [],
+  "clock_rate": 100.0
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 338.8,
+ "sim_recorded_s": 304.1,
+ "twist_nan": 0,
+ "servo_status": [
+  0,
+  1,
+  6
+ ]
+}

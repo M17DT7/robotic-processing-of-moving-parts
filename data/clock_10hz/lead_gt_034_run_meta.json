@@ -1,0 +1,25 @@
+{
+ "label": "lead_gt_034",
+ "config": {
+  "mode": "gt",
+  "duration": 150,
+  "v": 0.03,
+  "spawn_period": 16.0,
+  "stream": {},
+  "tracker": {
+   "target_lead_time": 0.34
+  },
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": []
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 187.8,
+ "sim_recorded_s": 155.3,
+ "twist_nan": 0,
+ "servo_status": [
+  0
+ ]
+}

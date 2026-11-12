@@ -1,0 +1,108 @@
+{
+  "twist_count": 0,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": null,
+  "twist_last_stamp": null,
+  "twist_last_nonzero_stamp": null,
+  "traj_count": 0,
+  "traj_nan": 0,
+  "traj_first_stamp": null,
+  "traj_last_recv_sim": null,
+  "js_count": 20421,
+  "samples": 2043,
+  "sim_t_start": 26.830000000000002,
+  "sim_t_end": 231.00000000000003,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular_nonzero_msgs": 0,
+  "ori_err_max_deg": 0.0,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 30.040000000000003,
+      "shape": "square"
+    },
+    {
+      "sim_t": 54.040000000000006,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 78.04,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 102.04,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 126.04,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 150.04000000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 174.04000000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 198.04000000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 222.04000000000002,
+      "shape": "pentagon"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 0.0,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [],
+  "detection_msgs": 1935
+}

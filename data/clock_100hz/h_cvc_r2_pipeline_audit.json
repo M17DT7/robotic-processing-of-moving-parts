@@ -1,0 +1,124 @@
+{
+  "twist_count": 0,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": null,
+  "twist_last_stamp": null,
+  "twist_last_nonzero_stamp": null,
+  "traj_count": 0,
+  "traj_nan": 0,
+  "traj_first_stamp": null,
+  "traj_last_recv_sim": null,
+  "js_count": 30492,
+  "samples": 3050,
+  "sim_t_start": 26.41,
+  "sim_t_end": 331.3,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      0,
+      0,
+      0
+    ],
+    "step_std_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "twist_angular_nonzero_msgs": 0,
+  "ori_err_max_deg": 0.0,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 31.44,
+      "shape": "square"
+    },
+    {
+      "sim_t": 55.440000000000005,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 79.44000000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 103.44000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 127.44000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 151.44,
+      "shape": "square"
+    },
+    {
+      "sim_t": 175.44,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 199.44000000000003,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 223.44000000000003,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 247.44000000000003,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 271.44,
+      "shape": "square"
+    },
+    {
+      "sim_t": 295.44,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 319.44,
+      "shape": "triangle"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 26.39,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [],
+  "detection_msgs": 5832
+}

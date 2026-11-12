@@ -1,0 +1,23 @@
+{
+ "label": "gt_v030_r2",
+ "config": {
+  "mode": "gt",
+  "duration": 270,
+  "v": 0.03,
+  "spawn_period": 16.0,
+  "stream": {},
+  "tracker": {},
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": []
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 308.2,
+ "sim_recorded_s": 275.3,
+ "twist_nan": 0,
+ "servo_status": [
+  0
+ ]
+}

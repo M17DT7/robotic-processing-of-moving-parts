@@ -1,0 +1,205 @@
+{
+  "twist_count": 12288,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": 29.67,
+  "twist_last_stamp": 327.51,
+  "twist_last_nonzero_stamp": 327.51,
+  "traj_count": 3648,
+  "traj_nan": 0,
+  "traj_first_stamp": 0.0,
+  "traj_last_recv_sim": 327.6,
+  "js_count": 30459,
+  "samples": 3047,
+  "sim_t_start": 26.3,
+  "sim_t_end": 330.90000000000003,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      30,
+      36,
+      17
+    ],
+    "step_std_xyz": [
+      0.0402,
+      0.04055,
+      0.0005
+    ],
+    "saturated_msgs": 1900,
+    "saturation_fraction": 0.1546,
+    "max_abs_xyz": [
+      0.999,
+      0.999,
+      0.02084
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      34,
+      12,
+      4
+    ],
+    "step_std_xyz": [
+      0.00031,
+      0.00028,
+      7e-05
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.01289,
+      0.01407,
+      0.00332
+    ]
+  },
+  "twist_angular_nonzero_msgs": 11656,
+  "ori_err_max_deg": 2.5968,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 30.630000000000003,
+      "shape": "square"
+    },
+    {
+      "sim_t": 54.63,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 78.63000000000001,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 102.63000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 126.63000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 150.63,
+      "shape": "square"
+    },
+    {
+      "sim_t": 174.63000000000002,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 198.63000000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 222.63000000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 246.63000000000002,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 270.63,
+      "shape": "square"
+    },
+    {
+      "sim_t": 294.63,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 318.63,
+      "shape": "triangle"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 26.3,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [
+    {
+      "sim_t": 29.51,
+      "state": "WAIT_READY"
+    },
+    {
+      "sim_t": 29.51,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 49.7,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 56.300000000000004,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 78.63000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 97.55000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 104.15,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 126.63000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 144.95000000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 151.55,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 174.63000000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 193.45000000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 200.05,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 222.63000000000002,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 241.50000000000003,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 248.10000000000002,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 270.63,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 289.65000000000003,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 296.25,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 318.63,
+      "state": "TRACKING"
+    }
+  ],
+  "detection_msgs": 3407
+}

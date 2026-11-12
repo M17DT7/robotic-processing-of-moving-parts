@@ -1,0 +1,38 @@
+{
+ "label": "h_p0t_v060_r1_c",
+ "config": {
+  "mode": "percep",
+  "duration": 228,
+  "v": 0.06,
+  "spawn_period": 16.5,
+  "stream": {},
+  "perception": {
+   "parallax_correction": true,
+   "principal_point_shift_px": -1.0
+  },
+  "estimator": {
+   "velocity_prior_blend": 0.0,
+   "coast_prior_blend": 0.0,
+   "velocity_prior": [
+    0.0,
+    0.06
+   ],
+   "coast_time_limit": 7.5
+  },
+  "tracker": {},
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": [],
+  "extra": [],
+  "clock_rate": 100.0
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 266.6,
+ "sim_recorded_s": 232.3,
+ "twist_nan": 0,
+ "servo_status": [
+  0
+ ]
+}

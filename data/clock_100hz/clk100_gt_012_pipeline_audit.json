@@ -1,0 +1,145 @@
+{
+  "twist_count": 11650,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": 29.28,
+  "twist_last_stamp": 177.77,
+  "twist_last_nonzero_stamp": 177.77,
+  "traj_count": 3446,
+  "traj_nan": 0,
+  "traj_first_stamp": 0.0,
+  "traj_last_recv_sim": 177.84,
+  "js_count": 15520,
+  "samples": 1552,
+  "sim_t_start": 26.01,
+  "sim_t_end": 181.10000000000002,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      29,
+      37,
+      27
+    ],
+    "step_std_xyz": [
+      0.03372,
+      0.03579,
+      0.00044
+    ],
+    "saturated_msgs": 1681,
+    "saturation_fraction": 0.1443,
+    "max_abs_xyz": [
+      0.999,
+      0.999,
+      0.01517
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      22,
+      9,
+      4
+    ],
+    "step_std_xyz": [
+      0.00018,
+      0.00028,
+      6e-05
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.01482,
+      0.01785,
+      0.00322
+    ]
+  },
+  "twist_angular_nonzero_msgs": 11419,
+  "ori_err_max_deg": 3.0605,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 31.240000000000002,
+      "shape": "square"
+    },
+    {
+      "sim_t": 47.24,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 63.24,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 79.24000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 95.24000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 111.24000000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 127.24000000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 143.24,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 159.24,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 175.24,
+      "shape": "irregular"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 26.94,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [
+    {
+      "sim_t": 29.16,
+      "state": "WAIT_READY"
+    },
+    {
+      "sim_t": 29.16,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 79.24000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 85.85000000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 95.24000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 143.24,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 149.85000000000002,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 159.24,
+      "state": "TRACKING"
+    }
+  ],
+  "detection_msgs": 0
+}

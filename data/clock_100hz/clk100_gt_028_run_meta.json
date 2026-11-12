@@ -1,0 +1,26 @@
+{
+ "label": "clk100_gt_028",
+ "config": {
+  "mode": "gt",
+  "duration": 150,
+  "v": 0.03,
+  "spawn_period": 16.0,
+  "stream": {},
+  "tracker": {
+   "target_lead_time": 0.28
+  },
+  "supervisor": true,
+  "world": "conveyor_world.world",
+  "events": [],
+  "clock_rate": 100.0
+ },
+ "ok": true,
+ "notes": [],
+ "leftover_killed": 0,
+ "wall_s": 188.3,
+ "sim_recorded_s": 154.9,
+ "twist_nan": 0,
+ "servo_status": [
+  0
+ ]
+}

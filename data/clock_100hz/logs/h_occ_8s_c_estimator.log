@@ -1,0 +1,27 @@
+[INFO] [1794435418.077159476] [perception_target_estimator]: Perception target estimator started (min_detections 15, gate 0.06 m, velocity_prior_blend 0.0, fit_frame part)
+[INFO] [1794435420.045852603] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.235), velocity (-0.0000, 0.0304) m/s from 15 detections
+[INFO] [1794435421.888271620] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[INFO] [1794435443.651385715] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435444.107998472] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.235), velocity (0.0000, 0.0300) m/s from 15 detections
+[INFO] [1794435445.991025996] [perception_target_estimator]: Shape resolved: pending -> 'circle'
+[INFO] [1794435467.689222643] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435468.149517674] [perception_target_estimator]: Confident: part 'pending' at (0.487, -0.235), velocity (-0.0001, 0.0300) m/s from 15 detections
+[INFO] [1794435470.033739039] [perception_target_estimator]: Shape resolved: pending -> 'triangle'
+[INFO] [1794435491.743837245] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435492.206570295] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.236), velocity (0.0000, 0.0297) m/s from 15 detections
+[INFO] [1794435494.076504372] [perception_target_estimator]: Shape resolved: pending -> 'pentagon'
+[INFO] [1794435515.793844631] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435516.270940589] [perception_target_estimator]: Confident: part 'pending' at (0.492, -0.220), velocity (0.0001, 0.0299) m/s from 15 detections
+[INFO] [1794435517.609331086] [perception_target_estimator]: Shape resolved: pending -> 'irregular'
+[INFO] [1794435539.851998517] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435540.319058598] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.235), velocity (-0.0000, 0.0304) m/s from 15 detections
+[INFO] [1794435542.204193195] [perception_target_estimator]: Shape resolved: pending -> 'square'
+[INFO] [1794435563.924960439] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435564.400323534] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.236), velocity (0.0000, 0.0300) m/s from 15 detections
+[INFO] [1794435566.273744002] [perception_target_estimator]: Shape resolved: pending -> 'circle'
+[INFO] [1794435587.983803409] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435588.473186021] [perception_target_estimator]: Confident: part 'pending' at (0.487, -0.235), velocity (-0.0001, 0.0300) m/s from 15 detections
+[INFO] [1794435590.332081433] [perception_target_estimator]: Shape resolved: pending -> 'triangle'
+[INFO] [1794435612.061031663] [perception_target_estimator]: New part detected (position jump upstream)
+[INFO] [1794435612.535054810] [perception_target_estimator]: Confident: part 'pending' at (0.500, -0.235), velocity (-0.0000, 0.0301) m/s from 15 detections
+[INFO] [1794435614.410660645] [perception_target_estimator]: Shape resolved: pending -> 'pentagon'

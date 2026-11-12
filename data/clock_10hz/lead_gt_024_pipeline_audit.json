@@ -1,0 +1,145 @@
+{
+  "twist_count": 2324,
+  "twist_nan": 0,
+  "twist_nonfinite_examples": [],
+  "twist_first_stamp": 29.1,
+  "twist_last_stamp": 177.2,
+  "twist_last_nonzero_stamp": 177.2,
+  "traj_count": 3372,
+  "traj_nan": 0,
+  "traj_first_stamp": 0.0,
+  "traj_last_recv_sim": 177.20000000000002,
+  "js_count": 15566,
+  "samples": 1557,
+  "sim_t_start": 25.1,
+  "sim_t_end": 180.60000000000002,
+  "twist_linear": {
+    "sign_reversals_xyz": [
+      33,
+      29,
+      19
+    ],
+    "step_std_xyz": [
+      0.07976,
+      0.0781,
+      0.00056
+    ],
+    "saturated_msgs": 361,
+    "saturation_fraction": 0.1553,
+    "max_abs_xyz": [
+      0.999,
+      0.999,
+      0.01271
+    ]
+  },
+  "twist_angular": {
+    "sign_reversals_xyz": [
+      24,
+      9,
+      6
+    ],
+    "step_std_xyz": [
+      0.00036,
+      0.00052,
+      0.00012
+    ],
+    "saturated_msgs": 0,
+    "saturation_fraction": 0.0,
+    "max_abs_xyz": [
+      0.01423,
+      0.01713,
+      0.0031
+    ]
+  },
+  "twist_angular_nonzero_msgs": 2280,
+  "ori_err_max_deg": 3.0605,
+  "reference_quat_xyzw": [
+    0.92396,
+    -0.38249,
+    -3e-06,
+    -1.6e-05
+  ],
+  "cycle_starts": [
+    {
+      "sim_t": 29.1,
+      "shape": "square"
+    },
+    {
+      "sim_t": 45.1,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 61.1,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 77.10000000000001,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 93.10000000000001,
+      "shape": "irregular"
+    },
+    {
+      "sim_t": 109.10000000000001,
+      "shape": "square"
+    },
+    {
+      "sim_t": 125.10000000000001,
+      "shape": "circle"
+    },
+    {
+      "sim_t": 141.10000000000002,
+      "shape": "triangle"
+    },
+    {
+      "sim_t": 157.10000000000002,
+      "shape": "pentagon"
+    },
+    {
+      "sim_t": 173.10000000000002,
+      "shape": "irregular"
+    }
+  ],
+  "servo_status_events": [
+    {
+      "sim_t": 0.0,
+      "status": 0
+    }
+  ],
+  "supervisor_state_events": [
+    {
+      "sim_t": 28.1,
+      "state": "WAIT_READY"
+    },
+    {
+      "sim_t": 28.1,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 77.10000000000001,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 83.80000000000001,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 93.10000000000001,
+      "state": "TRACKING"
+    },
+    {
+      "sim_t": 141.10000000000002,
+      "state": "RETURN_HOME"
+    },
+    {
+      "sim_t": 147.8,
+      "state": "WAIT_FOR_PART"
+    },
+    {
+      "sim_t": 157.10000000000002,
+      "state": "TRACKING"
+    }
+  ],
+  "detection_msgs": 0
+}
