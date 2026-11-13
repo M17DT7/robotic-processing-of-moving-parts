@@ -22,7 +22,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Mahmoud Tafran',
-    maintainer_email='177659378+M17DT7@users.noreply.github.com',
+    maintainer_email='mahmoudtafran40@gmail.com',
     description='Vision-guided perimeter tracking of parts moving on a conveyor.',
     license='BSD-3-Clause',
     extras_require={
