@@ -97,7 +97,7 @@ ROS_WS=~/ros2_ws python3 experiments/campaign.py <output dir> <worker id> <label
 
 ## Licence
 
-Code: BSD 3-Clause (`LICENSE`). Recorded data: CC BY 4.0 (`data/README.md`).
+Code and recorded data: BSD 3-Clause (`LICENSE`).
 The Panda meshes are third-party files, see
 `robotic_tracking_system/meshes/NOTICE`.
 

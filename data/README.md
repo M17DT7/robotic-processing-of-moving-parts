@@ -49,5 +49,5 @@ seconds of simulation time.
 
 ## Licence
 
-The data in this directory are released under the Creative Commons
-Attribution 4.0 International licence (CC BY 4.0).
+The data in this directory are released under the same BSD 3-Clause licence
+as the code (`LICENSE` in the repository root).
